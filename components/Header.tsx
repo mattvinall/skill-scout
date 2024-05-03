@@ -6,7 +6,7 @@ export const Header = () => {
             <nav>
                 <ul className="flex justify-between items-center">
                     <li>
-                        <p className="text-6xl dark:text-white font-bold font-700">SkillScout</p>
+                        <p className="text-6xl dark:text-white font-display font-bold font-700">SkillScout</p>
                     </li>
                     <li>
                         <ModeToggle />

@@ -6,7 +6,7 @@ export const Skills = () => {
         <section className="p-12">
             <h2 className="text-4xl font-display text-center md:text-left">Find Top Skills For Your Tech Stack in Your Area</h2>
 
-            <form className="flex gap-3 md:w-1/2 my-12">
+            <form className="flex flex-col md:flex-row gap-3 md:w-1/2 my-12">
                 <Input type="text" placeholder="Front End Developer" />
                 <Input type="text" placeholder="Toronto" />
                 <Button variant="outline">Submit</Button>
